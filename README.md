@@ -5,6 +5,7 @@
 - React
 - Vite
 - Tailwind
+- Shadcn/ui
 - pnpm
 ---
 
