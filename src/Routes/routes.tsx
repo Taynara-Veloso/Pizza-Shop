@@ -3,6 +3,7 @@ import { createBrowserRouter } from 'react-router-dom'
 import { AuthLayout } from '@/pages/_layouts/auth'
 import { DefaultLayout } from '@/pages/_layouts/default'
 import { Dashboard } from '@/pages/app/dashboard'
+import { Orders } from '@/pages/app/orders/orders'
 import { SignIn } from '@/pages/auth/sign-in'
 import { SignUp } from '@/pages/auth/sign-up'
 
@@ -10,7 +11,10 @@ export const router = createBrowserRouter([
   {
     path: '/',
     element: <DefaultLayout />,
-    children: [{ path: '/', element: <Dashboard /> }],
+    children: [
+      { path: '/', element: <Dashboard /> },
+      { path: '/orders', element: <Orders /> },
+    ],
   },
 
   {
