@@ -1,5 +1,8 @@
 # Pizza Shop 
 
+![imageDashboard](/public/Dashboard.jpg)
+![imageOrders](/public/orders.jpg)
+
 ## Ferramentas Utilizadas
 
 - React
