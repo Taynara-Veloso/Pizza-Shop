@@ -11,6 +11,7 @@
 - Shadcn/ui
 - pnpm
 - sonner
+- react-query
 ---
 
 `create project`
