@@ -29,6 +29,7 @@ export function SignIn() {
     },
   })
 
+  // POST/ PUT/ DELETE usa mutation
   const { mutateAsync: authenticate } = useMutation({
     mutationFn: signIn,
   })
@@ -43,7 +44,7 @@ export function SignIn() {
           onClick: () => handleSignIn(data),
         },
       })
-    } catch {
+    } catch (error) {
       toast.error('Credenciais inválidas.')
     }
   }
